@@ -1,0 +1,13 @@
+.user-image {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-top: -6px;
+    margin-right: 4px;
+}
+
+.card.card-cus {
+    border-top: 2px solid #4c4c4c;
+    padding-top: 10px;
+    min-height: 300px;
+}
