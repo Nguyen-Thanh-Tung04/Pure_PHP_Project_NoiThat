@@ -25,7 +25,7 @@
 <!-- login area start -->
 <div class="login-register-area pt-100px pb-100px">
     <div class="container">
-        <div class="row">
+        <div class="d-flex justify-content-center">
             <div class="col-lg-7 col-md-12 ml-auto mr-auto">
                 <div class="login-register-wrapper">
                     <div class="login-register-tab-list nav">
