@@ -12,7 +12,8 @@
         <div class="body customScroll">
             <ul class="minicart-product-list">
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/1.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/1.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Walnut Cutting Board</a>
                         <span class="quantity-price">1 x <span class="amount">$91.86</span></span>
@@ -20,7 +21,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/2.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/2.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Lucky Wooden Elephant</a>
                         <span class="quantity-price">1 x <span class="amount">$453.28</span></span>
@@ -28,7 +30,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/3.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/3.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Fish Cut Out Set</a>
                         <span class="quantity-price">1 x <span class="amount">$87.34</span></span>
@@ -257,20 +260,25 @@
             <div class="col-lg-6">
                 <div class="about-content">
                     <div class="about-title" data-aos="fade-up">
-                        <h2>Welcome To Furns</h2>
+                        <h2>Về chúng tôi</h2>
                     </div>
                     <p class="mb-30px" data-aos="fade-up" data-aos-delay="200">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aperiam fugit consequuntur
-                        voluptatibus ex sint iure in, distinctio sed dolorem aspernatur veritatis repellendus
-                        dolorum voluptate, animi libero officiis eveniet accusamus recusandae. Temporibus
-                        amet ducimus sapiente voluptatibus autem dolorem magnam quas, porro suscipit. Quibusdam
-                        culpa asperiores exercitationem architecto quo distinctio sed dolorem!
+                        Được thành lập vào năm 2015, Zero là cửa hàng nội thất có trụ sở tại Sài Gòn, Việt Nam. Ở đây,
+                        chúng tôi kể một câu chuyện về đồ nội thất “tự làm” của chúng tôi.
+                        Câu chuyện của Zero xoay quanh vẻ đẹp, sự thoải mái và chức năng của từng món đồ nội thất, chia
+                        sẻ cách bạn nhìn ngôi nhà của mình theo cách của chúng tôi.
+                        Bạn đã sẵn sàng nghe câu chuyện của chúng tôi chưa?
                     </p>
                     <p data-aos="fade-up" data-aos-delay="300">
-                        Sint voluptatum beatae necessitatibus quos mollitia vero, optio asperiores aut tempora iusto
-                        eum rerum, possimus, minus quidem ut saepe laboriosam. Praesentium aperiam accusantium minus
-                        repellendus laudantium provident quod recusandae exercitationem natus
-                        dignissimos.
+                        Sản phẩm đa dạng, phong phú: Trang web cung cấp đa dạng các sản phẩm nội thất từ phòng khách,
+                        phòng ngủ, phòng bếp, phòng tắm đến phòng làm việc,... với nhiều phong cách khác nhau, từ hiện
+                        đại đến cổ điển, từ đơn giản đến cầu kỳ.
+                        Chất lượng đảm bảo: Tất cả các sản phẩm đều được đảm bảo chất lượng, được làm từ những chất liệu
+                        tốt nhất, được sản xuất bởi những nhà sản xuất uy tín.
+                        Giá cả hợp lý: Trang web luôn cập nhật những chương trình khuyến mãi, ưu đãi hấp dẫn giúp khách
+                        hàng mua sắm tiết kiệm hơn.
+                        Dịch vụ chăm sóc khách hàng chu đáo: Trang web có đội ngũ nhân viên tư vấn chuyên nghiệp, sẵn
+                        sàng hỗ trợ khách hàng lựa chọn được những sản phẩm phù hợp với nhu cầu và sở thích của mình.
                     </p>
                 </div>
             </div>
@@ -284,12 +292,11 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="content" data-aos="fade-up" data-aos-delay="0">
-                    <h4 class="title">Functionality meets perfection</h4>
-                    <p class="title-desc">In today’s day and age, one cannot underestimate the importance of design,
-                        the art of
-                        creating striking visuals to move and captivate your audience. And as the world becomes more
-                        and more digitized with each passing second, the importance of graphic design has been
-                        rocketed to the top.</p>
+                    <h4 class="title">Chức Năng Đáp Ứng Sự Hoàn Hảo </h4>
+                    <p class="title-desc">Trong thời đại ngày nay, người ta không thể đánh giá thấp tầm quan trọng của
+                        thiết kế, nghệ thuật tạo ra hình ảnh nổi bật để lay động và thu hút khán giả. Và khi thế giới
+                        ngày càng được số hóa theo từng giây trôi qua, tầm quan trọng của thiết kế đồ họa đã được đẩy
+                        lên hàng đầu.</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -450,42 +457,50 @@
                             <div class="swiper-wrapper">
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-1.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-1.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-2.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-2.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-3.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-3.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-4.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-4.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-5.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-5.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-6.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-6.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-7.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-7.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                                 <!-- Start Company Logo Single Item -->
                                 <div class="company-logo-single-item swiper-slide">
-                                    <div class="image"><img class="img-fluid" src="assets/images/company-logo/company-logo-8.png" alt=""></div>
+                                    <div class="image"><img class="img-fluid"
+                                            src="assets/images/company-logo/company-logo-8.png" alt=""></div>
                                 </div>
                                 <!-- End Company Logo Single Item -->
                             </div>

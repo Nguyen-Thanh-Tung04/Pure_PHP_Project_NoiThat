@@ -8,7 +8,8 @@
         <div class="body customScroll">
             <ul class="minicart-product-list">
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/1.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/1.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Walnut Cutting Board</a>
                         <span class="quantity-price">1 x <span class="amount">$91.86</span></span>
@@ -16,7 +17,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/2.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/2.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Lucky Wooden Elephant</a>
                         <span class="quantity-price">1 x <span class="amount">$453.28</span></span>
@@ -24,7 +26,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="single-product.php" class="image"><img src="assets/images/product-image/3.jpg" alt="Cart product Image"></a>
+                    <a href="single-product.php" class="image"><img src="assets/images/product-image/3.jpg"
+                            alt="Cart product Image"></a>
                     <div class="content">
                         <a href="single-product.php" class="title">Fish Cut Out Set</a>
                         <span class="quantity-price">1 x <span class="amount">$87.34</span></span>
@@ -87,7 +90,7 @@
                             <ul class="sub-menu">
                                 <li><a href="shop-3-column.php">Shop 3 Column</a></li>
                                 <li><a href="shop-4-column.php">Shop 4 Column</a></li>
-                                <li><a href="store.php">Shop Grid Left Sidebar</a></li>
+                                <li><a href="index.php?act=sanphamct">Shop Grid Left Sidebar</a></li>
                                 <li><a href="shop-right-sidebar.php">Shop Grid Right Sidebar</a></li>
                             </ul>
                         </li>
@@ -279,23 +282,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/1.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/2.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/2.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Simple minimal Chair</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Simple minimal Chair</a></h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
                                     </span>
@@ -306,23 +314,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/3.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/4.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/4.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-7%</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Wooden decorations</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Wooden decorations</a></h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
                                         <span class="old">$38.00</span>
@@ -334,24 +347,29 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/5.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/6.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/6.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-5%</span>
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">High quality vase bottle</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">High quality vase bottle</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
@@ -364,22 +382,27 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/7.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/8.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/8.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Chair</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Chair</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -391,23 +414,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/9.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/10.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/10.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-7%</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Table</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Table</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -420,23 +448,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/11.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/12.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/12.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Wooden decorations</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Wooden decorations</a></h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
                                     </span>
@@ -447,22 +480,27 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/13.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/14.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/14.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">High quality vase bottle</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">High quality vase bottle</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -474,24 +512,29 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/15.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/16.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/16.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-5%</span>
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Chair</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Chair</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
@@ -504,23 +547,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/1.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/2.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/2.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Simple minimal Chair</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Simple minimal Chair</a></h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
                                     </span>
@@ -531,23 +579,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/3.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/4.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/4.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-7%</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Wooden decorations</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Wooden decorations</a></h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
                                         <span class="old">$38.00</span>
@@ -559,24 +612,29 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/5.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/6.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/6.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-5%</span>
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">High quality vase bottle</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">High quality vase bottle</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
@@ -589,22 +647,27 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/7.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/8.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/8.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Chair</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Chair</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -616,23 +679,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/9.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/10.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/10.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-7%</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Table</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Table</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -645,23 +713,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/11.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/12.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/12.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Wooden decorations</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Wooden decorations</a></h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
                                     </span>
@@ -672,22 +745,27 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/13.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/14.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/14.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">High quality vase bottle</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">High quality vase bottle</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$30.50</span>
@@ -699,24 +777,29 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/15.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/16.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/16.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-5%</span>
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Living & Bedroom Chair</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Living & Bedroom Chair</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
@@ -729,23 +812,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/1.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/2.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/2.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="new">New</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Office Furniture Table</a>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Office Furniture Table</a>
                                     </h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
@@ -757,23 +845,28 @@
                             <!-- Single Prodect -->
                             <div class="product mb-25px">
                                 <div class="thumb">
-                                    <a href="store.php" class="image">
+                                    <a href="index.php?act=sanphamct" class="image">
                                         <img src="assets/images/product-image/3.jpg" alt="Product" />
-                                        <img class="hover-image" src="assets/images/product-image/4.jpg" alt="Product" />
+                                        <img class="hover-image" src="assets/images/product-image/4.jpg"
+                                            alt="Product" />
                                     </a>
                                     <span class="badges">
                                         <span class="sale">-5%</span>
                                     </span>
                                     <div class="actions">
-                                        <a href="cart.php" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                                        <a href="compare.php" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
+                                        <a href="cart.php" class="action cart" title="cart"><i
+                                                class="icon-heart"></i></a>
+                                        <a href="#" class="action quickview" data-link-action="quickview"
+                                            title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                class="icon-size-fullscreen"></i></a>
+                                        <a href="compare.php" class="action compare" title="Compare"><i
+                                                class="icon-refresh"></i></a>
                                     </div>
                                     <button title="Add To Cart" class=" add-to-cart">Add
                                         To Cart</button>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="store.php">Wooden decorations</a></h5>
+                                    <h5 class="title"><a href="index.php?act=sanphamct">Wooden decorations</a></h5>
                                     <span class="price">
                                         <span class="new">$38.50</span>
                                         <span class="old">$40.50</span>
@@ -805,7 +898,7 @@
                     <!-- Sidebar single item -->
                     <div class="sidebar-widget">
                         <div class="main-heading">
-                            <h3 class="sidebar-title">Category</h3>
+                            <h3 class="sidebar-title">Danh mục</h3>
                         </div>
                         <div class="sidebar-widget-category">
                             <ul>
@@ -823,12 +916,13 @@
                     </div>
                     <!-- Sidebar single item -->
                     <div class="sidebar-widget-group">
-                        <h3 class="sidebar-title">Filter By</h3>
+                        <h3 class="sidebar-title">Lọc</h3>
                         <div class="sidebar-widget">
                             <h4 class="pro-sidebar-title">Price</h4>
                             <div class="price-filter">
                                 <div class="price-slider-amount">
-                                    <input type="text" id="amount" class="p-0 h-auto lh-1" name="price" placeholder="Add Your Price" />
+                                    <input type="text" id="amount" class="p-0 h-auto lh-1" name="price"
+                                        placeholder="Add Your Price" />
                                 </div>
                                 <div id="slider-range"></div>
                             </div>

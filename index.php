@@ -18,6 +18,9 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
         case 'login':
             include_once "view/acount/login.php";
             break;
+            case 'quenmk':
+                include_once "view/acount/quenmk.php";
+                break;
 
         case 'cart':
             include_once "view/cart/cart.php";
@@ -25,7 +28,9 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
         case 'thanhtoan':
             include_once "view/cart/thanhtoan.php";
             break;
-
+            case 'bill':
+                include_once "view/cart/bill.php";
+                break;
 
 
         case 'about':

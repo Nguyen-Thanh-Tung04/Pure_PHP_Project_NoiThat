@@ -12,10 +12,10 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 offset-2 align-self-center m-auto">
                             <div class="hero-slide-content hero-slide-content-2 slider-animated-1 text-center">
-                                <span class="category">New Products</span>
-                                <h2 class="title-1">Flexible Sofa Set</h2>
-                                <p class="w-100">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
-                                    eiusmo tempor incididunt ut labore et dolore magna</p>
+                                <span class="category">Sản phẩm của chúng tôi</span>
+                                <h2 class="title-1">Bộ Sofa Linh Hoạt</h2>
+                                <p class="w-100">Bản thân cơn đau là rất quan trọng và sau đó sẽ là tình trạng béo phì,
+                                    nhưng đồng thời nó sẽ xảy ra do phải lao động và đau đớn nhiều.</p>
                                 <a href="#" class="btn btn-lg btn-primary btn-hover-dark mt-5">Shop Now</a>
                             </div>
                         </div>
@@ -31,10 +31,10 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 offset-2 align-self-center m-auto">
                             <div class="hero-slide-content hero-slide-content-2 slider-animated-1">
-                                <span class="category">New Products</span>
-                                <h2 class="title-1">Flexible Sofa Set</h2>
-                                <p class="w-100">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
-                                    eiusmo tempor incididunt ut labore et dolore magna</p>
+                                <span class="category">Sản phẩm của chúng tôi</span>
+                                <h2 class="title-1">Bộ Sofa Linh Hoạt</h2>
+                                <p class="w-100">Bản thân cơn đau là rất quan trọng và sau đó sẽ là tình trạng béo phì,
+                                    nhưng đồng thời nó sẽ xảy ra do phải lao động và đau đớn nhiều.</p>
                                 <a href="#" class="btn btn-lg btn-primary btn-hover-dark mt-5">Shop Now</a>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                     <div class="info justify-content-start">
                         <div class="content align-self-center">
                             <h3 class="title">
-                                New Office Chair <br /> Collection
+                                Bộ sưu tập ghế <br /> văn phòng mới
                             </h3>
                             <a href="index.php?act=sanphamct" class="shop-link">Shop Now</a>
                         </div>
@@ -82,7 +82,8 @@
                     <div class="info justify-content-start">
                         <div class="content align-self-center">
                             <h3 class="title">
-                                Living Room <br /> Collection </h3>
+                                Bộ sưu tập <br /> phòng khách
+                            </h3>
                             <a href="index.php?act=sanphamct" class="shop-link">Shop Now</a>
                         </div>
                     </div>
@@ -97,7 +98,7 @@
                     <div class="info justify-content-start">
                         <div class="content align-self-center">
                             <h3 class="title">
-                                Children Room <br /> Collection
+                                Bộ sưu tập phòng<br /> trẻ em
                             </h3>
                             <a href="index.php?act=sanphamct" class="shop-link">Shop Now</a>
                         </div>
@@ -117,9 +118,9 @@
         <div class="row">
             <div class="col-md-12 text-center" data-aos="fade-up">
                 <div class="section-title mb-0">
-                    <h2 class="title">Our Products</h2>
-                    <p class="sub-title mb-30px">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
-                        eiusmo tempor incididunt ut labore</p>
+                    <h2 class="title">Sản phẩm của chúng tôi</h2>
+                    <p class="sub-title mb-30px">Bản thân cơn đau là rất quan trọng, và sau đó nó sẽ là hiện tượng béo
+                        phì, đồng thời nó sẽ xảy ra như một cơn chuyển dạ.</p>
                 </div>
             </div>
 
@@ -127,13 +128,15 @@
             <div class="col-md-12 text-center mb-40px" data-aos="fade-up" data-aos-delay="200">
                 <ul class="product-tab-nav nav justify-content-center">
                     <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab"
-                            href="#tab-product-new-arrivals">New Arrivals</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-best-sellers">Best
-                            Sellers </a></li>
-                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-sale-item">Sale
-                            Items</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-on-sales">On
-                            Sales</a></li>
+                            href="#tab-product-new-arrivals">Sản phẩm mới</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-best-sellers">Sản
+                            phẩm bán chạy </a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-sale-item">Mặt hàng
+                            giảm giá</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-on-sales">Đang bán
+                            <nav></nav>
+                        </a></li>
                 </ul>
             </div>
             <!-- Tab End -->
@@ -1331,7 +1334,7 @@
         <div class="row">
             <div class="col-md-12" data-aos="fade-up">
                 <div class="section-title text-center mb-11">
-                    <h2 class="title">New Products</h2>
+                    <h2 class="title">Sản phẩm mới</h2>
                     <p class="sub-title">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
                         tempor incididunt ut labore
                     </p>
@@ -1512,7 +1515,7 @@
         <div class="row">
             <div class="col-md-12" data-aos="fade-up">
                 <div class="section-title text-center mb-11">
-                    <h2 class="title">Latest News</h2>
+                    <h2 class="title">Tin mới nhất</h2>
                     <p class="sub-title">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
                         tempor incididunt ut labore
                     </p>

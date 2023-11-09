@@ -7,11 +7,11 @@
                     <!-- Start single blog -->
                     <div class="col-md-6 col-lg-4 mb-md-30px mb-lm-30px" data-aos="fade-up" data-aos-delay="200">
                         <div class="single-wedge">
-                            <h4 class="footer-herading">about us</h4>
-                            <p class="about-text">Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm
-                                tempor incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
+                            <h4 class="footer-herading">Giới thiệu</h4>
+                            <p class="about-text">Địa chỉ : Tòa nhà FPT Polytechnic., Cổng số 2, 13 P. Trịnh Văn Bô,
+                                Xuân Phương, Nam Từ Liêm, Hà Nội
                             </p>
+                            <p>Sđt : 0981 725 836</p>
                             <ul class="link-follow">
                                 <li class="li">
                                     <a class="paypal icon-paypal m-0" title="Paypal" href="#"></a>
@@ -36,16 +36,16 @@
                     <div class="col-md-6 col-sm-6 col-lg-3 mb-md-30px mb-lm-30px" data-aos="fade-up"
                         data-aos-delay="400">
                         <div class="single-wedge">
-                            <h4 class="footer-herading">information</h4>
+                            <h4 class="footer-herading">Thông tin</h4>
                             <div class="footer-links">
                                 <div class="footer-row">
                                     <ul class="align-items-center">
-                                        <li class="li"><a class="single-link" href="about.html">About us</a></li>
-                                        <li class="li"><a class="single-link" href="#">Delivery Information</a></li>
-                                        <li class="li"><a class="single-link" href="privacy-policy.html">Privacy &
-                                                Policy</a></li>
-                                        <li class="li"><a class="single-link" href="#">Terms & Condition</a></li>
-                                        <li class="li"><a class="single-link" href="#">Manufactures</a></li>
+                                        <li class="li"><a class="single-link" href="about.html">Về chúng tôi</a></li>
+                                        <li class="li"><a class="single-link" href="#">Thông tin giao hàng</a></li>
+                                        <li class="li"><a class="single-link" href="privacy-policy.html">Chính sách</a>
+                                        </li>
+                                        <li class="li"><a class="single-link" href="#">Điều khoản</a></li>
+                                        <li class="li"><a class="single-link" href="#">Sản xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -55,17 +55,16 @@
                     <!-- Start single blog -->
                     <div class="col-md-6 col-lg-2 col-sm-6 mb-lm-30px" data-aos="fade-up" data-aos-delay="600">
                         <div class="single-wedge">
-                            <h4 class="footer-herading">my account</h4>
+                            <h4 class="footer-herading">Tài khoản của tôi</h4>
                             <div class="footer-links">
                                 <div class="footer-row">
                                     <ul class="align-items-center">
-                                        <li class="li"><a class="single-link" href="my-account.html">My
-                                                Account</a>
+                                        <li class="li"><a class="single-link" href="my-account.html">Tài khoản</a>
                                         </li>
-                                        <li class="li"><a class="single-link" href="cart.html">My Cart</a></li>
-                                        <li class="li"><a class="single-link" href="login.html">Login</a></li>
-                                        <li class="li"><a class="single-link" href="cart.html">cart</a></li>
-                                        <li class="li"><a class="single-link" href="checkout.html">Checkout</a></li>
+                                        <li class="li"><a class="single-link" href="cart.html">Giỏ hàng</a></li>
+                                        <li class="li"><a class="single-link" href="login.html">đăng nhập</a></li>
+                                        <li class="li"><a class="single-link" href="cart.html">thanh toán</a></li>
+                                        <li class="li"><a class="single-link" href="checkout.html">bill</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,7 +74,7 @@
                     <!-- Start single blog -->
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
                         <div class="single-wedge">
-                            <h4 class="footer-herading">newsletter</h4>
+                            <h4 class="footer-herading">Bản tin</h4>
                             <div class="footer-links">
                                 <!-- News letter area -->
                                 <div id="mc_embed_signup" class="subscribe-form">
@@ -83,7 +82,7 @@
                                         name="mc-embedded-subscribe-form" method="post"
                                         action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef">
                                         <div id="mc_embed_signup_scroll" class="mc-form">
-                                            <input class="email" type="email" required="" placeholder="Your Mail*"
+                                            <input class="email" type="email" required="" placeholder="Thư của bạn*"
                                                 name="EMAIL" value="" />
                                             <div class="mc-news" aria-hidden="true">
                                                 <input type="text" value="" tabindex="-1"
@@ -92,7 +91,7 @@
                                             <div class="clear">
                                                 <button id="mc-embedded-subscribe" class="button btn-primary"
                                                     type="submit" name="subscribe" value=""><i class="icon-cursor"></i>
-                                                    Send Mail</button>
+                                                    Gửi thư</button>
                                             </div>
                                         </div>
                                     </form>
@@ -114,9 +113,9 @@
                         </div>
                     </div>
                     <div class="col-md-6 text-start">
-                        <p class="copy-text"> © 2021 <strong>Furns</strong> Made With <i class="ion-heart"
+                        <p class="copy-text"> © 2023 <strong>Nhóm</strong> 6 <i class="ion-heart"
                                 aria-hidden="true"></i> By <a class="company-name" href="https://hasthemes.com/">
-                                <strong> HasThemes</strong></a>.</p>
+                                <strong> Tung_Toan_Duong</strong></a>.</p>
                     </div>
                 </div>
             </div>

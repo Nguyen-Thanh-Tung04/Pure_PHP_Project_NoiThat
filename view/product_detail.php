@@ -162,12 +162,13 @@
                     </div>
                     <div class="pro-details-policy">
                         <ul>
-                            <li><img src="assets/images/icons/policy.png" alt="" /><span>Security Policy (Edit With
-                                    Customer Reassurance Module)</span></li>
-                            <li><img src="assets/images/icons/policy-2.png" alt="" /><span>Delivery Policy (Edit
-                                    With Customer Reassurance Module)</span></li>
-                            <li><img src="assets/images/icons/policy-3.png" alt="" /><span>Return Policy (Edit With
-                                    Customer Reassurance Module)</span></li>
+                            <li><img src="assets/images/icons/policy.png" alt="" /><span>Chính sách bảo mật (Chỉnh sửa
+                                    với mô-đun trấn an khách hàng)</span></li>
+                            <li><img src="assets/images/icons/policy-2.png" alt="" /><span>Chính sách giao hàng (Chỉnh
+                                    sửa với mô-đun trấn an khách hàng)</span></li>
+                            <li><img src="assets/images/icons/policy-3.png" alt="" /><span>Chính sách hoàn trả (Chỉnh
+                                    sửa với mô-đun trấn an khách hàng)
+                                </span></li>
                         </ul>
                     </div>
                 </div>
@@ -328,7 +329,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-start mb-11">
-                    <h2 class="title">You Might Also Like</h2>
+                    <h2 class="title">Bạn cũng có thể thích </h2>
                 </div>
             </div>
         </div>
@@ -509,7 +510,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-start mb-11">
-                    <h2 class="title">12 Other Products In The Same Category:</h2>
+                    <h2 class="title">12 Sản Phẩm Khác Cùng Danh Mục :</h2>
                 </div>
             </div>
         </div>
