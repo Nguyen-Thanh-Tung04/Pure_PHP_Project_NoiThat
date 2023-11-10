@@ -32,57 +32,96 @@
                             <div class="panel panel-default single-my-account" data-aos="fade-up" data-aos-delay="200">
                                 <div class="panel-heading my-account-title">
                                     <h3 class="panel-title"><span>1 .</span> <a data-bs-toggle="collapse"
-                                            class="collapsed" aria-expanded="true" href="#my-account-1">Edit your
-                                            account information </a>
+                                            class="collapsed" aria-expanded="true" href="#my-account-1">Chỉnh sửa thông
+                                            tin tài khoản</a>
                                     </h3>
                                 </div>
                                 <div id="my-account-1" class="panel-collapse collapse show" data-bs-parent="#faq">
                                     <div class="panel-body">
                                         <div class="myaccount-info-wrapper">
-                                            <div class="account-info-wrapper">
-                                                <h4>My Account Information</h4>
-                                                <h5>Your Personal Details</h5>
+                                            <div class="account-info-wrapper d-flex justify-content-between">
+                                                <div class="text">
+                                                    <h4>THÔNG TIN TÀI KHOẢN CỦA TÔI </h4>
+                                                    <h5>Thông tin cá nhân của bạn </h5>
+                                                </div>
+                                                <img style="height: 100px; width: 100px; border-radius: 50%; overflow: hidden;"
+                                                    src="assets/images/avata/toan.jpg" alt="">
                                             </div>
-                                            <div class="row">
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="billing-info">
-                                                        <label>First Name</label>
-                                                        <input type="text" />
+
+                                            <?php
+                                            if (isset($_SESSION['user-name']) && (is_array($_SESSION['user-name']))) {
+                                                extract($_SESSION['user-name']);
+                                            }
+                                            ?>
+                                            <form action="index.php?act=edit_taikhoan" method="post">
+                                                <div class="row">
+
+                                                    <input type="hidden" name="id" value="<?= $user_id   ?>">
+
+                                                    <input type="hidden" name="user-password" placeholder="Mật khẩu"
+                                                        value="<?= $user_password ?>" />
+
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Tên tài khoản</label>
+                                                            <input type="text" name="user-name"
+                                                                placeholder="Tên tài khoản" value="<?= $user_name ?>" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Địa chỉ</label>
+                                                            <input type="text" name="user-adress" placeholder="Địa chỉ"
+                                                                value="<?= $user_address	 ?>" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Số điện thoại</label>
+                                                            <input type="text" name="user-phone"
+                                                                placeholder="Số điện thoại"
+                                                                value="<?= $user_phone	 ?>" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Email</label>
+                                                            <input name="user-email" placeholder="Địa chỉ email"
+                                                                type="email" value="<?= $user_email	 ?>" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="gioitinh">
+                                                            <label for="gioi_tinh">Giới tính</label>
+                                                            <select class="form-select" name="gender" id="gioi_tinh">
+                                                                <option value="Male">Nam</option>
+                                                                <option value="Female">Nữ</option>
+                                                                <option value="Other">Khác</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Ngày sinh</label>
+                                                            <input type="date" name="birth" id=""
+                                                                value="<?= $user_birth ?>">
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="icon-arrow-up-circle"></i> back</a>
+                                                    </div>
+                                                    <div class="dangky col-lg-3 my-3">
+                                                        <input type="submit" value="Cập nhật" name="capnhat">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="billing-info">
-                                                        <label>Last Name</label>
-                                                        <input type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12 col-md-12">
-                                                    <div class="billing-info">
-                                                        <label>Email Address</label>
-                                                        <input type="email" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="billing-info">
-                                                        <label>Telephone</label>
-                                                        <input type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="billing-info">
-                                                        <label>Fax</label>
-                                                        <input type="text" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="billing-back-btn">
-                                                <div class="billing-back">
-                                                    <a href="#"><i class="icon-arrow-up-circle"></i> back</a>
-                                                </div>
-                                                <div class="billing-btn">
-                                                    <button type="submit">Continue</button>
-                                                </div>
-                                            </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -90,94 +129,59 @@
                             <div class="panel panel-default single-my-account" data-aos="fade-up" data-aos-delay="400">
                                 <div class="panel-heading my-account-title">
                                     <h3 class="panel-title"><span>2 .</span> <a data-bs-toggle="collapse"
-                                            class="collapsed" aria-expanded="false" href="#my-account-2">Change your
-                                            password </a></h3>
+                                            class="collapsed" aria-expanded="false" href="#my-account-2">Thay đổi
+                                            mật
+                                            khẩu
+                                            của bạn
+                                        </a></h3>
                                 </div>
                                 <div id="my-account-2" class="panel-collapse collapse" data-bs-parent="#faq">
                                     <div class="panel-body">
                                         <div class="myaccount-info-wrapper">
-                                            <div class="account-info-wrapper">
-                                                <h4>Change Password</h4>
-                                                <h5>Your Password</h5>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-12">
-                                                    <div class="billing-info">
-                                                        <label>Password</label>
-                                                        <input type="password" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12 col-md-12">
-                                                    <div class="billing-info">
-                                                        <label>Password Confirm</label>
-                                                        <input type="password" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="billing-back-btn">
-                                                <div class="billing-back">
-                                                    <a href="#"><i class="icon-arrow-up-circle"></i> back</a>
-                                                </div>
-                                                <div class="billing-btn">
-                                                    <button type="submit">Continue</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default single-my-account " data-aos="fade-up" data-aos-delay="600">
-                                <div class="panel-heading my-account-title">
-                                    <h3 class="panel-title"><span>3 .</span> <a data-bs-toggle="collapse"
-                                            class="collapsed" aria-expanded="false" href="#my-account-3">Modify your
-                                            address book entries
-                                        </a></h3>
-                                </div>
-                                <div id="my-account-3" class="panel-collapse collapse" data-bs-parent="#faq">
-                                    <div class="panel-body">
-                                        <div class="myaccount-info-wrapper">
-                                            <div class="account-info-wrapper">
-                                                <h4>Address Book Entries</h4>
-                                            </div>
-                                            <div class="entries-wrapper">
+                                            <h4>Đổi mật khẩu</h4>
+                                            <form action="index.php?act=edit_pass" method="post">
+
+
+                                                <input type="hidden" name="id" value="<?= $user_id ?>">
+
+                                                <input type="hidden" name="user-name" value="<?= $user_name ?>">
+
                                                 <div class="row">
-                                                    <div
-                                                        class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                                                        <div class="entries-info text-center">
-                                                            <p>Jone Deo</p>
-                                                            <p>hastech</p>
-                                                            <p>28 Green Tower,</p>
-                                                            <p>Street Name.</p>
-                                                            <p>New York City,</p>
-                                                            <p>USA</p>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Mật khẩu mới</label>
+                                                            <input type="password" name="user-password" />
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                                                        <div class="entries-edit-delete text-center">
-                                                            <a class="edit" href="#">Edit</a>
-                                                            <a href="#">Delete</a>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Xác nhận mật khẩu</label>
+                                                            <input type="password" name="user-password" />
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="billing-back-btn">
-                                                <div class="billing-back">
-                                                    <a href="#"><i class="icon-arrow-up-circle"></i> back</a>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="icon-arrow-up-circle"></i> back</a>
+                                                    </div>
+                                                    <div class="dangky col-lg-3 my-3">
+                                                        <input type="submit" value="Cập nhật" name="capnhat">
+                                                    </div>
                                                 </div>
-                                                <div class="billing-btn">
-                                                    <button type="submit">Continue</button>
-                                                </div>
-                                            </div>
+                                            </form>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="panel panel-default single-my-account m-0" data-aos="fade-up"
                                 data-aos-delay="800">
                                 <div class="panel-heading my-account-title">
-                                    <h3 class="panel-title"><span>4 .</span> <a href="cart.php">Modify your wish
-                                            list </a></h3>
+                                    <h3 class="panel-title"><span>3 .</span> <a href="index.php?act=trangthaidon">Đơn
+                                            hàng của
+                                            bạn</a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>

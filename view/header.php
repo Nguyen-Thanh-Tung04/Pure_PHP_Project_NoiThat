@@ -56,6 +56,8 @@
     <link rel="stylesheet" href="assets/css/vendor/vendor.min.css" />
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css" />
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/css.css">
+
 
     <!-- Main Style -->
     <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
@@ -90,14 +92,39 @@
                                     </form>
                                 </div>
                             </div>
+
                             <!-- Single Wedge Start -->
                             <div class="header-bottom-set dropdown">
-                                <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown"><i
-                                        class="icon-user"></i></button>
+                                <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown">
+
+                                    <?php
+                                    if (isset($_SESSION['user-name'])) {
+                                        extract($_SESSION['user-name']);
+                                    ?>
+                                    <img style="height: 35px; width: 35px; border-radius: 50%; overflow: hidden;"
+                                        src="assets/images/avata/toan.jpg" alt="">
+                                    <?php
+
+                                    } else {
+                                    ?>
+                                    <i class="icon-user"></i>
+                                    <?php } ?>
+                                </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
+
+                                    <?php
+                                    if (isset($_SESSION['user-name'])) {
+                                        extract($_SESSION['user-name']);
+                                    ?>
                                     <li><a class="dropdown-item" href="index.php?act=account">Tài khoản</a></li>
-                                    <li><a class="dropdown-item" href="index.php?act=thanhtoan">Đăng xuất</a></li>
+                                    <li><a class="dropdown-item" href="index.php?act=dangxuat">Đăng xuất</a></li>
+                                    <?php
+
+                                    } else {
+                                    ?>
                                     <li><a class="dropdown-item" href="index.php?act=login">Đăng nhập</a></li>
+                                    <?php } ?>
+
                                 </ul>
                             </div>
                             <!-- Single Wedge End -->
