@@ -100,15 +100,24 @@
                                     <?php
                                     if (isset($_SESSION['user-name'])) {
                                         extract($_SESSION['user-name']);
+                                        if (!empty($img)) {
+                                            $hinhpath = "upload/" . $img;
+                                            if (is_file($hinhpath)) {
+                                                $hinh = "<img src='" . $hinhpath . "' style='height: 40px; width: 40px; border-radius: 50%;'>";
+                                            } else {
+                                                $hinh = "No photo";
+                                            }
+                                        } else {
+                                            $hinh = "<img src='assets/images/avata/avata_null.jpg' alt='' ' style='height: 40px; width: 40px; border-radius: 50%;'>";
+                                        }
                                     ?>
-                                    <img style="height: 35px; width: 35px; border-radius: 50%; overflow: hidden;"
-                                        src="assets/images/avata/toan.jpg" alt="">
+                                    <?php echo $hinh ?>
                                     <?php
-
                                     } else {
                                     ?>
                                     <i class="icon-user"></i>
                                     <?php } ?>
+
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
 

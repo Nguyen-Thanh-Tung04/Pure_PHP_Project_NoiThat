@@ -5,13 +5,13 @@
             <div class="col-12">
                 <div class="row breadcrumb_box  align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-                        <h2 class="breadcrumb-title">Shop</h2>
+                        <h2 class="breadcrumb-title">Đơn của tôi</h2>
                     </div>
                     <div class="col-lg-6  col-md-6 col-sm-12">
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list text-center text-md-end">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
+                            <li class="breadcrumb-item"><a href="index.php">Trang chủ</a></li>
+                            <li class="breadcrumb-item active">Đơn hàng</li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -40,6 +40,7 @@
                                     <th>Số lượng</th>
                                     <th>Thành tiền</th>
                                     <th>Trạng thái</th>
+                                    <th>Chi tiết</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -62,6 +63,11 @@
                                         <div class="Place-order mt-25">
                                             <p class="btn-hover text-danger">Chờ xác nhận</p>
                                         </div>
+                                    </td>
+                                    <td>
+                                        <a href="?act=trangthai_chitiet" class="btn btn-secondary"
+                                            style="width:100px;height:50px;">Chi
+                                            tiết đơn</a>
                                     </td>
                                 </tr>
                             </tbody>

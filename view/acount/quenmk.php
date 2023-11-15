@@ -35,13 +35,22 @@
                         <div id="lg1" class="tab-pane active">
                             <div class="login-form-container">
                                 <div class="login-register-form">
-                                    <form action="#" method="post">
-                                        <input type="text" name="user-name" placeholder="Email" />
+                                    <form action="index.php?act=quenmk" method="post">
+                                        <input type="text" name="email" placeholder="Email" />
                                         <div class="button-box d-flex justify-content-lg-between">
-                                            <button type="submit"><span>Gửi</span></button>
+                                            <div class="dangky col-lg-3 my-3">
+                                                <input type="submit" value="Gửi" name="guiemail">
+                                            </div>
                                             <a href="index.php?act=login">Hủy bỏ</a>
                                         </div>
                                     </form>
+                                    <p class="thongbao" style="color: red;">
+                                        <?php
+                                        if (isset($sendMailMess) && $sendMailMess != '') {
+                                            echo $sendMailMess;
+                                        }
+                                        ?>
+                                    </p>
                                 </div>
                             </div>
                         </div>

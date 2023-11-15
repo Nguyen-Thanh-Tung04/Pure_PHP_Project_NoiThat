@@ -40,7 +40,7 @@
                         <div id="lg1" class="tab-pane active">
                             <div class="login-form-container">
                                 <div class="login-register-form">
-                                    <form action="index.php?act=dangnhap" method="post">
+                                    <form action="index.php?act=login" method="post">
                                         <input type="text" name="user-name" placeholder="Tên tài khoản" />
                                         <input type="password" name="user-password" placeholder="Mật khẩu" />
                                         <div class="button-box">
@@ -54,36 +54,23 @@
                                             </div>
                                         </div>
                                     </form>
+                                    <p class="thongbao" style="color: red;">
+
+                                    </p>
+
+
                                 </div>
-                                <p style="color: red;">Mật khẩu hoặc tài khoản không chính xác !</p>
                             </div>
-                            <?php
-                            //  if(isset($thongbao)){
-                            //     echo "<p>. $thongbao.</p>";
-                            // }
-                            ?>
+
+
                         </div>
                         <div id="lg2" class="tab-pane">
                             <div class="login-form-container">
                                 <div class="login-register-form">
-                                    <form action="index.php?act=dangky" method="post">
-                                        <input type="text" name="user-name" placeholder="Tên tài khoản" />
-                                        <input type="password" name="user-password" placeholder="Mật khẩu" />
-                                        <input name="user-email" placeholder="Địa chỉ email" type="email" />
-                                        <input type="text" name="user-adress" placeholder="Địa chỉ" />
-                                        <input type="text" name="user-phone" placeholder="Số điện thoại" />
-                                        <div class="ngaysinh">
-                                            <p>Ngày sinh</p>
-                                            <input type="date" name="birth" id="">
-                                        </div>
-                                        <div class="gioitinh">
-                                            <label for="gioi_tinh">Giới tính</label>
-                                            <select class="form-select" name="gender" id="gioi_tinh">
-                                                <option value="nam">Nam</option>
-                                                <option value="nữ">Nữ</option>
-                                            </select>
-                                        </div>
-
+                                    <form action="index.php?act=login" method="post">
+                                        <input name="user-email" placeholder="Địa chỉ email" type="email" required />
+                                        <input type="text" name="user-name" placeholder="Tên tài khoản" required />
+                                        <input type="password" name="user-password" placeholder="Mật khẩu" required />
 
                                         <div class="dangky col-lg-3 my-3">
                                             <input type="submit" value="Đăng ký" name="dangky">

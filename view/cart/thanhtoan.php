@@ -5,13 +5,13 @@
                 <div class="col-12">
                     <div class="row breadcrumb_box  align-items-center">
                         <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-                            <h2 class="breadcrumb-title">Shop</h2>
+                            <h2 class="breadcrumb-title">Giỏ hàng</h2>
                         </div>
                         <div class="col-lg-6  col-md-6 col-sm-12">
                             <!-- breadcrumb-list start -->
                             <ul class="breadcrumb-list text-center text-md-end">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Checkout</li>
+                                <li class="breadcrumb-item"><a href="index.php">trang chủ</a></li>
+                                <li class="breadcrumb-item active">Thanh toán</li>
                             </ul>
                             <!-- breadcrumb-list end -->
                         </div>

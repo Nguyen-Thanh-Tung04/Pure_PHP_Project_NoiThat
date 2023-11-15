@@ -5,13 +5,13 @@
                 <div class="col-12">
                     <div class="row breadcrumb_box  align-items-center">
                         <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-                            <h2 class="breadcrumb-title">Shop</h2>
+                            <h2 class="breadcrumb-title">Tài khoản của tôi</h2>
                         </div>
                         <div class="col-lg-6  col-md-6 col-sm-12">
                             <!-- breadcrumb-list start -->
                             <ul class="breadcrumb-list text-center text-md-end">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active">Account</li>
+                                <li class="breadcrumb-item"><a href="index.html">TRang chủ</a></li>
+                                <li class="breadcrumb-item active">Tài khoản</li>
                             </ul>
                             <!-- breadcrumb-list end -->
                         </div>
@@ -44,16 +44,23 @@
                                                     <h4>THÔNG TIN TÀI KHOẢN CỦA TÔI </h4>
                                                     <h5>Thông tin cá nhân của bạn </h5>
                                                 </div>
-                                                <img style="height: 100px; width: 100px; border-radius: 50%; overflow: hidden;"
-                                                    src="assets/images/avata/toan.jpg" alt="">
                                             </div>
 
                                             <?php
+                                            $hinh = ""; // Khởi tạo biến $hinh
                                             if (isset($_SESSION['user-name']) && (is_array($_SESSION['user-name']))) {
                                                 extract($_SESSION['user-name']);
+
+                                                $hinhpath = "upload/" . $img;
+                                                if (is_file($hinhpath)) {
+                                                    $hinh = "<img src='" . $hinhpath . "' style='height: 100px;width: 100px; border-radius: 50%;'>";
+                                                } else {
+                                                    $hinh = "No photo";
+                                                }
                                             }
                                             ?>
-                                            <form action="index.php?act=edit_taikhoan" method="post">
+                                            <form action="index.php?act=edit_taikhoan" method="post"
+                                                enctype="multipart/form-data">
                                                 <div class="row">
 
                                                     <input type="hidden" name="id" value="<?= $user_id   ?>">
@@ -61,19 +68,45 @@
                                                     <input type="hidden" name="user-password" placeholder="Mật khẩu"
                                                         value="<?= $user_password ?>" />
 
-                                                    <div class="col-lg-12 col-md-12">
+                                                    <div class="col-lg-6 col-md-6">
                                                         <div class="billing-info">
                                                             <label>Tên tài khoản</label>
                                                             <input type="text" name="user-name"
                                                                 placeholder="Tên tài khoản" value="<?= $user_name ?>" />
                                                         </div>
                                                     </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div>
+                                                            <label>Avata</label>
+                                                            <div class="d-flex">
+                                                                <input style="width:50%;" type="file" name="hinh" id="">
 
+                                                                <?php
+                                                                if (isset($_SESSION['user-name'])) {
+                                                                    extract($_SESSION['user-name']);
+                                                                    if (!empty($img)) {
+                                                                        $hinhpath = "upload/" . $img;
+                                                                        if (is_file($hinhpath)) {
+                                                                            $hinh = "<img src='" . $hinhpath . "' style='height: 100px; width: 100px; border-radius: 50%;'>";
+                                                                        } else {
+                                                                            $hinh = "No photo";
+                                                                        }
+                                                                    } else {
+                                                                        $hinh = "<img src='assets/images/avata/avata_null.jpg' alt='' ' style='height: 100px; width: 100px; border-radius: 50%;'>";
+                                                                    }
+                                                                ?>
+                                                                <?php echo $hinh ?>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="col-lg-12 col-md-12">
                                                         <div class="billing-info">
                                                             <label>Địa chỉ</label>
                                                             <input type="text" name="user-adress" placeholder="Địa chỉ"
-                                                                value="<?= $user_address	 ?>" />
+                                                                value="<?= $user_address     ?>" />
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6">
@@ -81,23 +114,30 @@
                                                             <label>Số điện thoại</label>
                                                             <input type="text" name="user-phone"
                                                                 placeholder="Số điện thoại"
-                                                                value="<?= $user_phone	 ?>" />
+                                                                value="<?= $user_phone     ?>" />
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6">
                                                         <div class="billing-info">
                                                             <label>Email</label>
                                                             <input name="user-email" placeholder="Địa chỉ email"
-                                                                type="email" value="<?= $user_email	 ?>" />
+                                                                type="email" value="<?= $user_email     ?>" />
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6">
                                                         <div class="gioitinh">
                                                             <label for="gioi_tinh">Giới tính</label>
                                                             <select class="form-select" name="gender" id="gioi_tinh">
-                                                                <option value="Male">Nam</option>
-                                                                <option value="Female">Nữ</option>
-                                                                <option value="Other">Khác</option>
+                                                                <option value="Male"
+                                                                    <?php if ($user_gender == 'Male') echo 'selected'; ?>>
+                                                                    Nam
+                                                                </option>
+                                                                <option value="Female"
+                                                                    <?php if ($user_gender == 'Female') echo 'selected'; ?>>
+                                                                    Nữ</option>
+                                                                <option value="Other"
+                                                                    <?php if ($user_gender == 'Other') echo 'selected'; ?>>
+                                                                    Khác</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -122,6 +162,11 @@
                                                     </div>
                                                 </div>
                                             </form>
+                                            <?php
+                                            if (isset($thongbao)) {
+                                                echo '<div class="alert alert-primary" role="alert">' . $thongbao . '</div>';
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -146,17 +191,20 @@
 
                                                 <input type="hidden" name="user-name" value="<?= $user_name ?>">
 
+                                                <input type="hidden" name="user-password" value="<?= $user_password ?>">
+
+
                                                 <div class="row">
                                                     <div class="col-lg-12 col-md-12">
                                                         <div class="billing-info">
                                                             <label>Mật khẩu mới</label>
-                                                            <input type="password" name="user-password" />
+                                                            <input type="password" name="password-new" />
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 col-md-12">
                                                         <div class="billing-info">
                                                             <label>Xác nhận mật khẩu</label>
-                                                            <input type="password" name="user-password" />
+                                                            <input type="password" name="password-new-confirm" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,7 +217,11 @@
                                                     </div>
                                                 </div>
                                             </form>
-
+                                            <?php
+                                            if (isset($thongbao)) {
+                                                echo '<div class="alert alert-primary" role="alert">' . $thongbao . '</div>';
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                 </div>

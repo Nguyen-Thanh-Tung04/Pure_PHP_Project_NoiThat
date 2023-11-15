@@ -61,9 +61,11 @@
                                     <ul class="align-items-center">
                                         <li class="li"><a class="single-link" href="my-account.html">Tài khoản</a>
                                         </li>
-                                        <li class="li"><a class="single-link" href="cart.html">Giỏ hàng</a></li>
+                                        <li class="li"><a class="single-link" href="index.php?act=cart">Giỏ hàng</a>
+                                        </li>
                                         <li class="li"><a class="single-link" href="login.html">đăng nhập</a></li>
-                                        <li class="li"><a class="single-link" href="cart.html">thanh toán</a></li>
+                                        <li class="li"><a class="single-link" href="index.php?act=cart">thanh toán</a>
+                                        </li>
                                         <li class="li"><a class="single-link" href="checkout.html">bill</a></li>
                                     </ul>
                                 </div>
@@ -225,7 +227,7 @@
                             </div>
                             <div class="pro-details-wish-com">
                                 <div class="pro-details-cart">
-                                    <a href="cart.html"><i class="ion-android-favorite-outline"></i>Add to
+                                    <a href="index.php?act=cart"><i class="ion-android-favorite-outline"></i>Add to
                                         cart</a>
                                 </div>
                                 <div class="pro-details-compare">

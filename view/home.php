@@ -134,7 +134,8 @@
                     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-sale-item">Mặt hàng
                             giảm giá</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-on-sales">Đang bán
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-on-sales">Sắp ra
+                            mắt
                             <nav></nav>
                         </a></li>
                 </ul>
@@ -161,7 +162,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -196,7 +197,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -232,7 +233,7 @@
                                             <span class="sale">-7%</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -267,7 +268,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -303,7 +304,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -337,7 +338,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -371,7 +372,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -404,7 +405,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -445,7 +446,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -480,7 +481,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -516,7 +517,7 @@
                                             <span class="sale">-7%</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -551,7 +552,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -587,7 +588,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -621,7 +622,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -655,7 +656,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -688,7 +689,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -729,7 +730,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -764,7 +765,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -800,7 +801,7 @@
                                             <span class="sale">-7%</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -835,7 +836,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -871,7 +872,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -905,7 +906,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -939,7 +940,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -972,7 +973,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1013,7 +1014,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1048,7 +1049,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1084,7 +1085,7 @@
                                             <span class="sale">-7%</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1119,7 +1120,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1155,7 +1156,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1189,7 +1190,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1223,7 +1224,7 @@
                                         <span class="badges">
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1256,7 +1257,7 @@
                                             <span class="new">New</span>
                                         </span>
                                         <div class="actions">
-                                            <a href="cart.html" class="action cart" title="cart"><i
+                                            <a href="index.php?act=cart" class="action cart" title="cart"><i
                                                     class="icon-heart"></i></a>
                                             <a href="#" class="action quickview" data-link-action="quickview"
                                                 title="Quick view" data-bs-toggle="modal"
@@ -1356,7 +1357,8 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i
+                                        class="icon-heart"></i></a>
                                 <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="icon-size-fullscreen"></i></a>
@@ -1386,7 +1388,8 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i
+                                        class="icon-heart"></i></a>
                                 <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="icon-size-fullscreen"></i></a>
@@ -1416,7 +1419,8 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i
+                                        class="icon-heart"></i></a>
                                 <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="icon-size-fullscreen"></i></a>
@@ -1446,7 +1450,8 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i
+                                        class="icon-heart"></i></a>
                                 <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="icon-size-fullscreen"></i></a>
@@ -1476,7 +1481,8 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i
+                                        class="icon-heart"></i></a>
                                 <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="icon-size-fullscreen"></i></a>

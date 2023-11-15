@@ -5,13 +5,13 @@
             <div class="col-12">
                 <div class="row breadcrumb_box  align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-                        <h2 class="breadcrumb-title">Shop</h2>
+                        <h2 class="breadcrumb-title">Giỏ hàng</h2>
                     </div>
                     <div class="col-lg-6  col-md-6 col-sm-12">
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list text-center text-md-end">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
+                            <li class="breadcrumb-item"><a href="index.php">Trang chủ</a></li>
+                            <li class="breadcrumb-item active">giỏ hàng</li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -61,42 +61,8 @@
                                         <a href="#"><i class="icon-close"></i></a>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td class="product-thumbnail">
-                                        <a href="#"><img class="img-responsive ml-15px"
-                                                src="assets/images/product-image/2.jpg" alt="" /></a>
-                                    </td>
-                                    <td class="product-name"><a href="#">Product Name</a></td>
-                                    <td class="product-price-cart"><span class="amount">$50.00</span></td>
-                                    <td class="product-quantity">
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
-                                        </div>
-                                    </td>
-                                    <td class="product-subtotal">$80.00</td>
-                                    <td class="product-remove">
-                                        <a href="#"><i class="icon-pencil"></i></a>
-                                        <a href="#"><i class="icon-close"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="product-thumbnail">
-                                        <a href="#"><img class="img-responsive ml-15px"
-                                                src="assets/images/product-image/3.jpg" alt="" /></a>
-                                    </td>
-                                    <td class="product-name"><a href="#">Product Name</a></td>
-                                    <td class="product-price-cart"><span class="amount">$70.00</span></td>
-                                    <td class="product-quantity">
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
-                                        </div>
-                                    </td>
-                                    <td class="product-subtotal">$90.00</td>
-                                    <td class="product-remove">
-                                        <a href="#"><i class="icon-pencil"></i></a>
-                                        <a href="#"><i class="icon-close"></i></a>
-                                    </td>
-                                </tr>
+
+
                             </tbody>
                         </table>
                     </div>

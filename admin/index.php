@@ -1,6 +1,9 @@
-<?php 
+<?php
+include '../model/pdo.php'; 
     include 'header.php';
     include 'sidebar.php';
+    
+    include '../model/taikhoanuser.php';
     if(isset($_GET['act'])&&($_GET['act']!="")){
         $act=$_GET['act'];
         switch($act){
@@ -11,6 +14,7 @@
                 include "product/list.php";
                 break;
             case "listcustomer":
+                $listuser= loadall_taikhoan();
                 include "taikhoan/list.php";
                 break;
             case "listcomment":
@@ -34,5 +38,3 @@
     }
     include 'footer.php';
 ?>
-
-

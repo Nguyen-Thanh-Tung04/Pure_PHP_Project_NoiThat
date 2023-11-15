@@ -35,24 +35,19 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/1.jpg"
-                                alt="">
+                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/1.jpg" alt="">
                         </div>
                         <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/2.jpg"
-                                alt="">
+                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/2.jpg" alt="">
                         </div>
                         <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/3.jpg"
-                                alt="">
+                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/3.jpg" alt="">
                         </div>
                         <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/4.jpg"
-                                alt="">
+                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/4.jpg" alt="">
                         </div>
                         <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/5.jpg"
-                                alt="">
+                            <img class="img-responsive m-auto" src="assets/images/product-image/zoom-image/5.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -305,8 +300,7 @@
                                             <div class="col-md-12">
                                                 <div class="rating-form-style form-submit">
                                                     <textarea name="Your Review" placeholder="Message"></textarea>
-                                                    <button class="btn btn-primary btn-hover-color-primary "
-                                                        type="submit" value="Submit">Submit</button>
+                                                    <button class="btn btn-primary btn-hover-color-primary " type="submit" value="Submit">Submit</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -349,12 +343,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -380,12 +371,9 @@
                                 <span class="sale">-7%</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -411,12 +399,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -441,12 +426,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -471,12 +453,9 @@
                                 <span class="sale">-5%</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -530,12 +509,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -561,12 +537,9 @@
                                 <span class="sale">-7%</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -592,12 +565,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -622,12 +592,9 @@
                                 <span class="new">New</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
@@ -652,12 +619,9 @@
                                 <span class="sale">-5%</span>
                             </span>
                             <div class="actions">
-                                <a href="cart.html" class="action cart" title="cart"><i class="icon-heart"></i></a>
-                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                        class="icon-size-fullscreen"></i></a>
-                                <a href="compare.html" class="action compare" title="Compare"><i
-                                        class="icon-refresh"></i></a>
+                                <a href="index.php?act=cart" class="action cart" title="cart"><i class="icon-heart"></i></a>
+                                <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
+                                <a href="compare.html" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
                             </div>
                             <button title="Add To Cart" class=" add-to-cart">Add
                                 To Cart</button>
